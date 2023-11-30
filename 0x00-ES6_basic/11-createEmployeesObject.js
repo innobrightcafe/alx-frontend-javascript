@@ -1,10 +1,8 @@
 const createEmployeesObject = (departmentName, employees) => {
-  const employeesObject = {};
-  departments.forEach((department) => {
-    const [name, employees] = department;
-    employeesObject[name] = employees;
-  });
-  return employeesObject;
-};
+  
+  return {
+    [departmentName]: employees,
+  };
+}
 
 export default createEmployeesObject;
