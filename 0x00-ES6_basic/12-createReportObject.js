@@ -1,4 +1,4 @@
-import createEmployeesObject from "./11-createEmployeesObject";
+import createEmployeesObject from './11-createEmployeesObject';
 
 const createReportObject = (employeesList) => {
   const allEmployees = { ...employeesList };
