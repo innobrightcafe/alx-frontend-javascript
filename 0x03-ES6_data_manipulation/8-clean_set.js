@@ -1,6 +1,11 @@
 export default function cleanSet(set, startString) {
   const parts = [];
-  if (!set || !startString || !(set instanceof Set) || typeof startString !== 'string') {
+  if (
+    !set ||
+    !startString ||
+    !(set instanceof Set) ||
+    typeof startString !== 'string'
+  ) {
     return '';
   }
   for (const value of set.values()) {
